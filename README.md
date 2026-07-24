@@ -27,6 +27,16 @@ trading_bot/
 └── README.md
 ```
 
+## Streamlit Dashboard
+
+The project also includes a Streamlit UI in [app.py](app.py) for placing orders and viewing `logs/bot.log` live in the browser.
+
+Run it with:
+
+```powershell
+streamlit run app.py
+```
+
 ## Binance Testnet Setup
 
 1. Create or sign in to your Binance Futures Testnet account at https://testnet.binancefuture.com.
